@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/ea3c2ca336.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id = "home" class="headerbg">
+    <header>
+        <nav>
+            <img src="img/ap.png" class = "logo">
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#certificates">Certifications</a></li>
+                    <!-- https://drive.google.com/file/d/1vepLVYmGArDDnEiiMJKdgtaNlxwMFZn0/view?usp=sharing -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="first">
+        <div class="leftsection">
+            Hello, My name is <span class="lblue"> Aishanya</span>!!  
+            <span id="element">I am a Computer Science Engineer and a Tech Enthusiast.</span>
+            <br>
+            <button><a href="img/Aishanya(CV-updated).pdf">Download Resume</a></button>
+        </div>
+        <div class="rightsection">
+        </div>
+    </section> 
+</div>
+    <main>
+          <!-- About section -->
+        <div id = "about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <h1 class = "sub-title">About Me</h1>       
+                        <p class = "a-des">Hello, my name is Aishanya Pattanaik I am a Computer Science Engineer and a passionate tech 
+                            enthusiast who is new to the industry and eager to learn and expand my knowledge. Always 
+                            looking for new opportunities, Highly flexible in taking on different tasks and excelling 
+                            under pressure. Skilled in effective teamwork, communication and stayingcomposed in critical
+                            situations. Committed to staying up-to-date with latest trendsand always curious about tech.</p>  
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            </div>               
+                            <div class="tab-contents active-tab" id="Skills">
+                                <ul>
+                                    <li><span>Programing</span><br> &#8226; Java &#8226; Python <br> <pr class="tab-contents-sub">Familer with:</pr> <br> &#8226; HTML &#8226; CSS &#8226; Javascript &#8226; C &#8226; Powershell</li>
+                                    <li><span>Soft Skills</span><br> &#8226; Adaptability &#8226; Team Work &#8226; Communication &#8226; Critical Thinking</li>
+                                    <li><span>Languages Known</span><br>&#8226; English &#8226; Hindi &#8226; Telugu &#8226; Odia</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>
+                                        NATIONAL SCIENCE AND TECHNOLOGICAL LABORATORY
+                                        (NSTL), DRDO</span><br>  Visakhapatnam | DEC 2022 - JAN 2023 | Intern<br> <br>&#8226; Worked on USB data retrieval from an onboard instrumentation system. <br> &#8226; Updated existing GUIs to betterrepresent information. <br> &#8226; Written a C program to perform CRC (Cyclic redundancy check) on transmitted
+                                        data.</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>Jan 2021 - Present </span><br>B.tech in Computer Science From Andhra University<br>Visakhapatnam, India <br> CGPA Secured(Present): 8.45</li>
+                                    <li><span>May 2018 - April 2020</span><br>Intermediate from Narayana Junior college<br> Vishakhapatnam, India <br> CGPA Secured: 9.11</li>
+                                    <li><span>May 2017 - April 2018 </span><br>10th from Narayana E-Techno<br> Visakhapatnam, India <br> Percentage Secured: 80.4%</li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="about-col2">
+                        <img src="img/img1.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </main>
+
+    <!-- ------------------certificates ----------------- -->
+
+    <div id = "certificates" class="certificates">
+        <h1 class = "sub-title">Certifications</h1>
+        <div class="swiper slide-content">
+        <div class="certification-list swiper-wrapper">
+            <div class="swiper-slide">
+                <h2>
+                    Introduction to Machine Learning <br>by IIT KGP - NPTEL
+                </h2>
+                <p>
+                    Introduction course to machine learning giving a brief idea about the concepts of and used in machine learning.  
+                </p>
+                <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS87S4426009410022762">Learn More</a>
+            </div>
+            <div class="swiper-slide">
+                <h2>Azure AI Fundamentals <br>by Microsoft</h2>
+                <p>Covers Artificial Intelligence fundamentals,foundational course for exploreing Artificial Intelligence.</p>
+                <a href="https://www.credly.com/badges/6505e6ef-fca0-4c62-bf21-09699073be41">Learn More</a>
+            </div>
+            <div class="swiper-slide">
+                <h2> Information Security Fundamentals <br>by Great Learning</h2>
+                <p>Introductory course that covers essential principles and practices for protecting digital information from unauthorized access, disclosure, and alteration.</p>
+                <a href="https://olympus1.mygreatlearning.com/course_certificate/NVSQLJWX">Learn More</a>
+            </div>
+            </div>
+        </div>
+</div>
+
+      <!-- ---------------projects---------- -->
+    <div  id = "projects" class="projects">
+        <div class="container">
+            <h1 class = "sub-title">Projects</h1>
+            <div class="project-list">
+                <div>
+                    <h2>
+                        File Monitoring system with Email Alerts
+                    </h2>
+                    <p>
+                        A file monitoring system that continuously calculates and stores file hashes
+                        (calculated using SHA-256) in a baseline file for selected files. When an update is
+                        made in the file, the system sends email alerts to notify users. This system is
+                        implemented using a PowerShell script.  
+                    </p>
+                    <a href="https://github.com/Aishanya-1112/File-Monitoring-System"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div>
+                    <h2>Youtube Front End Clone</h2>
+                    <br>
+                    
+                    <p>Designed a copy of youtube.com using HTML and CSS, aiming to grasp the
+                        fundamental aspects of web development and design principles.</p>
+                    <a href="https://github.com/Aishanya-1112/youtube_clone"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div>
+                    <h2> Personal Bank Account DataBase</h2>
+                    <br>
+                    
+                    <p>Created an Graphical userInterface with back end database connectivity to manage
+                        bank account details(assets, loans, account balance etc). The data base is updated
+                        based on the inputreceived from user, using triggers in SQL. Developed using Oracle
+                        10g Express Edition.</p>
+                    <!-- <a href="https://olympus1.mygreatlearning.com/course_certificate/NVSQLJWX"><i class="fa-brands fa-github"></i></a> -->
+                </div>
+            </div>
+
+            <a href="https://github.com/Aishanya-1112" class="btn">See More</a>
+        </div>
+    </div>
+
+<!-- ---------contact me ------------- -->
+
+<div id = "contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <hi class="sub-title">Contact Me</hi>
+                <p><i class="fa-solid fa-envelope"></i> aishanyapattanaik1112@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8374962825</p>
+                <div class="socials">
+                    <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                    <a href="https://twitter.com/aishanya1112"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/Aishanya-1112"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aishanya-pattanaik-5715a7253/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/Aishanya(CV-updated).pdf" download class ="btn">Download Resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Thanks for Visiting <i class="fa-solid fa-rocket"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         
+    }
+    </script>
+    <!-- -----swiper-JS----- -->
+    <script src="JS/swiper-bundle.min.js"></script>
+    <script src="JS/script1.js"></script>
+</body>
+</html>

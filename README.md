@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio website
+Welcome to my fully responsive portfolio website! It's a showcase of my journey in Computer Science, designed with HTML, CSS, and JavaScript. Here, I provide insights into my background, projects, certifications, and more. My goal is to grasp the fundamental aspects of web development and share my passion for Computer Science. Join me on this exploration of digital creativity and innovation.
